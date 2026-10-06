@@ -634,6 +634,14 @@ button { font: inherit; }
   .site-footer > p { display: none; }
 }
 
+.intelligence-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.intelligence-steps li { border-top: 1px solid rgba(181,166,255,.4); padding-top: 24px; }
+.intelligence-steps span { color: #b5a6ff; font-size: 11px; letter-spacing: .1em; }
+.intelligence-steps h3 { font-size: 21px; font-weight: 550; margin: 18px 0 12px; }
+.intelligence-steps p { color: var(--muted); font-size: 15px; line-height: 1.7; }
+@media (max-width: 980px) { .intelligence-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 540px) { .intelligence-steps { grid-template-columns: 1fr; gap: 18px; } }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }

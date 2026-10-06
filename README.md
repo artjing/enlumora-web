@@ -1,6 +1,8 @@
 # Enlumora product site
 
-Static product website for Enlumora, published with GitHub Pages at [enlumra.site](https://enlumra.site).
+Static product website for Enlumora, deployed from `artjing/enlumora-web` with GitHub Pages at [enlumora.jingarttech.com](https://enlumora.jingarttech.com).
+
+The legacy `artjing/enlumora-site` deployment remains at `enlumra.site` during migration so existing privacy/support links remain available. Do not change `api.jingarttech.com`, the studio root domain, or mail records when deploying this site.
 
 ## Local preview
 
