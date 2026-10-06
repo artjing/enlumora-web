@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Install Enlumora Beta — No invitation code needed</title>
+  <meta name="description" content="Try Enlumora on your iPhone. Install TestFlight, then join through our public invitation. No invitation code needed.">
+  <link rel="canonical" href="https://enlumora.jingarttech.com/install.html">
+  <link rel="icon" href="assets/app-icon.webp">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .install-shell { width: min(600px, calc(100% - 40px)); margin: 0 auto; padding: 28px 0 56px; }
+    .install-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .language { display: flex; gap: 6px; }
+    .language button { color: var(--muted); background: transparent; border: 0; padding: 10px; border-radius: 12px; cursor: pointer; }
+    .language button[aria-pressed="true"] { color: white; background: rgba(255,255,255,.1); }
+    .install-intro { margin: 48px 0 28px; }
+    .install-intro h1 { font-size: clamp(34px, 7vw, 48px); letter-spacing: -.04em; margin: 14px 0; line-height: 1.15; }
+    .install-shell p { color: var(--muted); line-height: 1.65; }
+    .install-shell .no-code { color: #d5caff; font-size: 15px; }
+    .install-card { background: rgba(255,255,255,.045); border: 1px solid var(--line); border-radius: 24px; padding: 24px; margin: 16px 0; }
+    .install-card h2 { font-size: 20px; margin: 0 0 10px; }
+    .install-card .button { width: 100%; text-align: center; justify-content: center; min-height: 52px; padding: 16px; font-size: 15px; white-space: normal; }
+    .install-card .button--secondary { border: 1px solid rgba(213,202,255,.25); background: rgba(135,110,230,.16); }
+    .install-step { margin: 24px 0 0; }
+    .install-step h3 { font-size: 17px; margin-bottom: 8px; }
+    .install-step p { font-size: 14px; }
+    .install-shell details { border-top: 1px solid var(--line); padding: 18px 0; }
+    .install-shell summary { cursor: pointer; font-size: 15px; }
+    .install-shell details p, .install-footer { font-size: 13px; }
+    .install-footer { display: flex; gap: 20px; flex-wrap: wrap; color: var(--muted); padding-top: 24px; }
+    a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid #c5b5ff; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main class="install-shell">
+    <nav class="install-nav" aria-label="Installation navigation">
+      <a class="brand" href="index.html"><img src="assets/app-icon.webp" width="36" height="36" alt=""><span>Enlumora</span></a>
+      <div class="language" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="zh" aria-pressed="false">中文</button></div>
+    </nav>
+    <header class="install-intro">
+      <p class="eyebrow" data-zh="IPHONE 测试版">IPHONE BETA</p>
+      <h1 data-zh="开启你的能量之旅。">Your energy journey starts here.</h1>
+      <p data-zh="Enlumora 测试版通过 Apple 官方的 TestFlight 安装。请在 iPhone 上打开此页面。">The Enlumora beta is installed through Apple’s TestFlight app. Open this page on your iPhone.</p>
+      <p class="no-code" data-zh="无需邀请码，也无需兑换码。这个链接就是你的邀请。">No invitation code. No redeem code. This link is your invitation.</p>
+    </header>
+    <section class="install-card">
+      <h2 data-zh="已经安装 TestFlight？">Already have TestFlight?</h2>
+      <p data-zh="直接打开 Enlumora 邀请，点击「接受」，再点击「安装」。">Open the Enlumora invitation, then tap Accept and Install.</p>
+      <a class="button button--primary" href="https://testflight.apple.com/join/pq1HumvR" data-zh="加入 Enlumora 测试 →">Join Enlumora beta →</a>
+    </section>
+    <section class="install-card">
+      <h2 data-zh="第一次使用 TestFlight？">New to TestFlight?</h2>
+      <div class="install-step">
+        <h3 data-zh="1 · 安装免费的 TestFlight">1 · Get the free TestFlight app</h3>
+        <p data-zh="它是 Apple 用来安装测试版 App 的工具。安装后请回到这个网页，不需要点「兑换」。">It’s Apple’s tool for installing beta apps. After installing it, return to this page—you do not need Redeem.</p>
+        <a class="button button--secondary" href="https://apps.apple.com/app/testflight/id899247664" target="_blank" rel="noopener noreferrer" data-zh="前往 App Store 安装 TestFlight ↗">Get TestFlight from the App Store ↗</a>
+      </div>
+      <div class="install-step">
+        <h3 data-zh="2 · 回到这里，安装 Enlumora">2 · Come back and install Enlumora</h3>
+        <p data-zh="点击下面的按钮，然后在 TestFlight 中点「接受」→「安装」。已参加测试的用户会看到「更新」或「打开」。">Tap below, then choose Accept → Install in TestFlight. Returning testers may see Update or Open.</p>
+        <a class="button button--primary" href="https://testflight.apple.com/join/pq1HumvR" data-zh="我装好了，继续安装 Enlumora →">TestFlight is ready — get Enlumora →</a>
+      </div>
+    </section>
+    <details><summary data-zh="它还是让我输入邀请码？">Still being asked for a code?</summary><p data-zh="不要使用 TestFlight 里的「兑换」。返回此页面，点「加入 Enlumora 测试」。如果在微信等内置浏览器里无法跳转，请用右上角菜单在 Safari 中打开此页面，再试一次。">Do not use Redeem inside TestFlight. Return here and tap Join Enlumora beta. If an in-app browser such as WeChat cannot open the invitation, use its menu to open this page in Safari and try again.</p></details>
+    <details><summary data-zh="看到测试已满、已结束或设备不兼容？">Beta full, unavailable, or device incompatible?</summary><p data-zh="这不是缺少邀请码。测试名额、版本有效期和设备要求由 Apple 测试页面显示；请通过下方 Support 联系我们。">That is not a missing-code problem. Availability, build expiry, and device requirements are shown by Apple. Please contact us through Support below.</p></details>
+    <footer class="install-footer"><a href="index.html" data-zh="了解 Enlumora">Explore Enlumora</a><a href="support.html" data-zh="获取帮助">Support</a><a href="privacy.html" data-zh="隐私">Privacy</a><a href="https://testflight.apple.com/" data-zh="Apple 安装说明">Apple’s installation guide</a></footer>
+  </main>
+  <script src="install.js"></script>
+</body>
+</html>
